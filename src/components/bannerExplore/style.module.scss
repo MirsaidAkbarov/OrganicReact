@@ -1,0 +1,122 @@
+@import "../Container.module.scss";
+@import "../Font.module.scss";
+
+
+.explore__main {
+    background-color: #F9F8F8;
+
+    background-image:  url("../images/Background.svg");
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+    background-repeat: no-repeat;
+      display: flex;
+  justify-content: space-between;
+    align-items: center;
+
+}
+.explore__then {
+    width: 35%;
+}
+.second__image {
+    width: 100%;
+
+}
+.second__allimg {
+    width: 50%;
+    
+}
+
+.explore__now {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.container {
+}
+.explore__title {
+    max-width: 530px;
+}
+
+.natural__food {
+    color: #68A47F;
+    font-family: 'Yellowtail', cursive;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.healthy__live {
+    color: #274C5B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.explore__button1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 28px 30px;
+    max-width: 300px;
+    border-radius: 16px;
+    background: #EFD372;
+    margin-top: 25px;
+    min-width: 200px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.3s;
+    cursor: pointer;
+}
+.explore__button1:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.1); 
+    z-index: 1; 
+       outline: none; 
+}
+.explore__button1:active  {
+    transform: translateY(2px); 
+}
+
+.explore__button1 {
+    transition: transform 0.3s; 
+}
+
+.explore__button1:active    {
+    transform: scale(0.9);
+}
+
+.explore__button1:active   {
+    transform: scale(0.9);
+}
+
+
+.explore__word1 {
+
+    color: #274C5B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+gap: 10px;
+}
+.narrow {
+    margin-left: 10px;
+}
+
+
+
+.fresh__fruit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 150px;
+    gap: 20px;
+
+}

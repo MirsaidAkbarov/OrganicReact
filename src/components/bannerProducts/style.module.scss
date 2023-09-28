@@ -1,0 +1,183 @@
+@import "../Container.module.scss";
+@import "../Font.module.scss";
+
+
+.products {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 175px 0 0 0;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.category__text {
+    color: #7EB693;
+font-family: Yellowtail;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.category__products {
+    color: #274C5B;
+text-align: center;
+font-family: Roboto;
+font-size: 50px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.typeof__products {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+border-radius: 30px;
+background: #F9F8F8;
+    gap: 20px;
+    padding: 17px 30px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.typeof__products:hover  {
+    transform: scale(1.05);
+    box-shadow: 7px 30px 30px rgba(0, 0, 0, 0.1); 
+    z-index: 1; 
+       outline: none; 
+}
+
+.food__types {
+    margin-top: 20px;
+}
+.vegatebles__button {
+    display: flex;
+    max-width: 96px;
+padding: 5px 12px 6px 12px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: #274C5B;
+}
+.vegatebles__textword {
+    color: #FFF;
+text-align: center;
+font-family: 'Roboto', sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.vegatevle__img {
+    width: 100%;
+    height: 255px;
+}
+.calebrese {
+    color: #274C5B;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.broccoli__prise {
+    display: flex;
+    margin-top: 13px;
+    justify-content: space-between;
+    padding-top: 6px;
+    border-top: 1px solid #DEDDDD;;
+}
+.prise__number {
+    color: #274C5B;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    line-height: normal;
+}
+.overflow__prise {
+    color: #B8B8B8;
+font-family: Open Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration:line-through;
+}
+
+.type__allproducts {
+    width: 100%;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(287px, 1fr));
+    margin: 40px 0 122px 0;
+}
+
+.type__allproducts {
+    gap: 20px;
+    padding: 0 20px;
+}
+
+
+
+.organic__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 28px 30px;
+    max-width: 16%;
+    border-radius: 16px;
+    min-width: 220px;
+background: #274C5B;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+transition: box-shadow 0.3s, transform 0.3s;
+cursor: pointer;
+
+}
+.organic__button:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.1); 
+    z-index: 1; 
+       outline: none; 
+}
+.organic__button:active  {
+    transform: translateY(2px); 
+}
+
+.organic__button {
+    transition: transform 0.3s; 
+}
+
+.organic__button:active    {
+    transform: scale(0.9);
+}
+
+.organic__button:active   {
+    transform: scale(0.9);
+}
+
+
+
+
+
+.organic__textword {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+    } 

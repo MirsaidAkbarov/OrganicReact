@@ -1,0 +1,132 @@
+@import "../Container.module.scss";
+@import "../Font.module.scss";
+
+
+
+
+
+
+.iconis {
+    width: 100%;
+    background-image: url("../images/1.png");
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+   background-repeat: no-repeat;
+}
+.freandly__iconis {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    width: 100%;
+    padding: 180px 0 180px 800px;
+}
+
+.eco__freandly {
+    color: #7EB693;
+font-family: Yellowtail;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.econis__isfreandly {
+    color: #274C5B;
+font-family: Roboto;
+font-size: 50px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 35px;
+}
+.ourcompany {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.start__withus {
+    color: #274C5B;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.setup__comment {
+    color: #525C60;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 165.4%; /* 29.772px */
+}
+
+@media (max-width: 1200px) {
+    .freandly__iconis {
+        padding: 180px 0 180px 550px;
+    }
+}
+
+@media (max-width: 992px) {
+    .freandly__iconis {
+        padding-left: 500px;
+    }
+
+    .econis__isfreandly {
+        font-size: 40px; 
+    }
+
+    .start__withus {
+        font-size: 24px; 
+    }
+
+    .setup__comment {
+        font-size: 16px; 
+    }
+}
+
+@media (max-width: 768px) {
+    .freandly__iconis {
+        padding-left: 400px;
+    }
+
+    .econis__isfreandly {
+        font-size: 36px;
+    }
+
+    .start__withus {
+        font-size: 20px;
+    }
+
+    .setup__comment {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .freandly__iconis {
+        padding-left: 350px;
+    }
+
+    .econis__isfreandly {
+        font-size: 30px; 
+    }
+
+    .start__withus {
+        font-size: 18px; 
+    }
+
+    .setup__comment {
+        font-size: 12px; 
+    }
+}
+
+@media (max-width: 1000px) {
+    .offer__organic {
+        padding: 100px 20px 100px 20px;
+    }
+    .breanches {
+        gap: 20px;
+    }
+}

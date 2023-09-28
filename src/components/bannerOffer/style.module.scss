@@ -1,0 +1,175 @@
+@import "../Container.module.scss";
+@import "../Font.module.scss";
+
+
+
+
+
+.offer__organic {
+    width: 100%;
+    background: #274C5B;
+    padding: 100px 0;
+
+}
+
+.offer__textsection {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.offer__theword {
+    color: #7EB693;
+font-family: Yellowtail;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.weord__organic {
+    color: #FFF;
+font-family: Roboto;
+font-size: 50px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.explore__button {
+    max-width: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 28px 30px;
+    border-radius: 16px;
+    background: #EFD372;
+    margin-top: 25px;
+    min-width: 200px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.3s;
+    cursor: pointer;
+}
+.explore__button:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.1); 
+    z-index: 1; 
+       outline: none; 
+}
+
+
+    .explore__button:focus {
+    outline: none;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+    }
+    
+    .explore__button:active {
+    transform: translateY(0);
+    box-shadow: none;
+    }
+.explore__word {
+    color: #274C5B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+gap: 10px;
+}
+
+.breanches {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(287px, 1fr));
+
+}
+
+
+
+
+
+
+.vegatebles__textword {
+    color: #FFF;
+text-align: center;
+font-family: 'Roboto', sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.vegatevle__img {
+    width: 100%;
+    height: 255px;
+}
+.calebrese {
+    color: #274C5B;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.broccoli__prise {
+    display: flex;
+    margin-top: 13px;
+    justify-content: space-between;
+    padding-top: 6px;
+    border-top: 1px solid #DEDDDD;;
+}
+.prise__number {
+    color: #274C5B;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    line-height: normal;
+}
+.overflow__prise {
+    color: #B8B8B8;
+font-family: Open Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration:line-through;
+}
+
+
+.food__types {
+    margin-top: 20px;
+}
+
+
+.typeof__products {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+border-radius: 30px;
+background: #F9F8F8;
+    gap: 20px;
+    padding: 17px 30px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.typeof__products:hover  {
+    transform: scale(1.05);
+    box-shadow: 7px 30px 30px rgba(0, 0, 0, 0.1); 
+    z-index: 1; 
+       outline: none; 
+}
+
+
+
+@media (max-width: 1000px) {
+    .offer__organic {
+        padding: 100px 20px 100px 20px;
+    }
+    .breanches {
+        gap: 20px;
+    }
+}

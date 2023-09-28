@@ -1,0 +1,252 @@
+@import "../Container.module.scss";
+@import "../Font.module.scss";
+
+
+
+
+.weekly__contex {
+    margin-top: 100px ;
+    margin-bottom: 170px;
+    width: 100%;
+}
+
+.news {
+display: flex;
+justify-content: space-between;
+}
+.news__text {
+    color: #7EB693;
+font-family: Yellowtail;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.news__title {
+    width: 50%;
+
+   
+}
+.weekly__discover {
+    color: #274C5B;
+    font-family: 'Roboto';
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+.morenews__button {
+width: 50%;
+
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 28px 30px;
+max-width: 300px;
+border-radius: 16px;
+min-width: 200px;
+border-radius: 16px;
+border: 2px solid #274C5B;
+background: #FFF;
+max-height: 100px;
+
+margin-top: 50px;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+transition: box-shadow 0.3s, transform 0.3s;
+cursor: pointer;
+
+}
+
+.morenews__button:hover {
+transform: scale(1.05);
+box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.1); 
+z-index: 1; 
+   outline: none; 
+}
+
+
+.morenews__button:focus {
+outline: none;
+box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+transform: translateY(-2px);
+}
+
+.morenews__button:active {
+transform: translateY(0);
+box-shadow: none;
+}
+.morenews__textword {
+    color: #274C5B;
+    font-family: 'Roboto';
+    font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+display: flex;
+    gap: 10px;
+}
+
+.explore__button {
+    max-width: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 28px 30px;
+    border-radius: 16px;
+    background: #EFD372;
+    margin-top: 25px;
+    min-width: 200px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.3s;
+    cursor: pointer;
+}
+
+.explore__word {
+    display: flex;
+    color: #274C5B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    gap: 10px;
+}
+
+.news__chat {
+    display: grid;
+gap: 50px;
+grid-template-columns: repeat(auto-fit, minmax(287px, 1fr));
+    width: 100%;
+    margin-top: 45px;
+
+}
+.chat__box {
+    width: 100%;
+    height: 530px;
+    background-image: url("../images/Photo.png");
+    background-size: cover;
+background-repeat: no-repeat;
+padding: 60px 35px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    position: relative;
+}
+.chat__box1 {
+    width: 100%;
+    height: 530px;
+    background-image: url("../images/Photo\ \(1\).png");
+    background-size: cover;
+background-repeat: no-repeat;
+padding: 60px 35px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    position: relative;
+}
+@media (max-width: 800px) {
+    .news__chat {
+      grid-template-columns: 1fr;
+      gap: 110px;
+    }
+}
+.november {
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #274C5B;
+    padding: 0 10px;
+text-align: center;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.benefits {
+    position: absolute;
+    bottom: -50px;
+    left: 80px;
+    right: 80px;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 46px;
+    border-radius: 40px;
+    align-items: center;
+    box-shadow: 0px 20px 35px 0px rgba(167, 167, 167, 0.25);
+}
+.byrachi {
+    color: #274C5B;
+font-family: 'Roboto';
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.humanvector {
+    margin-right: 10px;
+}
+.vitamin__d {
+    color: #274C5B;
+font-family: 'Roboto';
+font-size: 25px;
+font-style: normal;
+font-weight: 1000;
+line-height: normal;
+}
+.vitamind__text {
+    color: #525C60;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 165.4%; /* 29.772px */
+}
+
+
+
+@media (min-width: 577px) and (max-width: 767px) {
+.news__chat {
+  gap: 100px; 
+}
+
+.chat__box,
+.chat__box1 {
+  padding: 50px 30px; 
+}
+
+.benefits {
+  padding: 30px;
+}
+}
+
+@media (min-width: 768px) {
+.news__chat {
+  gap: 40px;
+}
+
+.chat__box,
+.chat__box1 {
+  padding: 60px 35px; 
+}
+
+.benefits {
+  padding: 20px;
+}
+}
+
+@media (min-width: 1024px) {
+.news__chat {
+  gap: 50px;
+}
+
+}
+
+

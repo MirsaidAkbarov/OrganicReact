@@ -1,0 +1,92 @@
+
+.container {
+    margin: 0 auto;
+    max-width: 1330px;
+
+}
+
+.organic__logo {
+    color: #274C5B;
+    font-family: 'Roboto', sans-serif;
+        font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+
+@media (max-width: 1000px) {
+    .email__message {
+        padding: 0 20px;
+
+        height: 300px;
+    }
+    .all__emailmessage {
+        padding: 0 20px;
+    }
+    .subscribe__button {
+        padding: 18px 45px;
+
+    }
+    .your__adress {
+        width: 200px;
+    }
+    .weekly__contex, 
+    .juice__container {
+        padding: 0 20px ;
+    }
+    .freandly__iconis {
+        padding-right: 20px;
+
+    }
+    .products {
+        padding: 0;
+    }
+    .replies {
+        margin: 100px 0 0 0;
+        padding: 50px 0 50px 0;
+    }
+
+    .vegatevle__img {
+        height: 250px;
+        object-fit: contain;
+    }
+    
+    .type__allproducts {
+        gap: 20px;
+        padding: 0 20px;
+    }
+    .subscribe__word {
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin-right: 10px;
+    }
+
+    .natural__producttext {
+        padding: 16px 0 0 20px;
+
+    }
+    .natural__productpunkt {
+        padding: 30px 20px;
+
+    }
+
+}
+
+
+
+
+.organic__juicetable:hover, 
+.organic__juicetable1:hover,
+.organic__juicetable2:hover  {
+    transform: scale(1.05);
+    box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.1); 
+    z-index: 1; 
+       outline: none; 
+}
